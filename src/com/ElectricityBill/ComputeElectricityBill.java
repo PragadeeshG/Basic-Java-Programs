@@ -25,7 +25,7 @@ public class ComputeElectricityBill {
 		System.out.println();
 		CalculateBill obj = new CalculateBill();
 		obj.bill(units);
-		System.out.println("Bill to pay is: " + obj.billPay);
+		System.out.println("Final Bill to pay is: " + obj.billPay);
 
 	}
 

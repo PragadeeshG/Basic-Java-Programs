@@ -7,7 +7,7 @@ import java.util.TreeMap;
 public class FrequencyOfCharacter {
 
 	public static void main(String[] args) {
-		String name = "Pragadeesh is a good boy and learning Java";
+		String name = "Pragadeesh is a good boy";
 		Map<Character, Integer> output = new TreeMap<>();
 		for (int i = 0; i < name.length(); i++) {
 			char abc = name.charAt(i);
